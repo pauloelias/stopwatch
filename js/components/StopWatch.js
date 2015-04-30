@@ -33,8 +33,10 @@ var StopWatch = React.createClass({
     console.log("Ding! Ding! Ding!");
 
     // this.setState({ time: 0, until: '', enabled: true });
-    // console.log(React.findDOMNode(this.refs.input));
     this.replaceState(this.getInitialState());
+
+    // console.log(React.findDOMNode(this.refs.input));
+
     React.findDOMNode(this.refs.input).focus();
     // React.findDOMNode(this.refs.button).disabled = false;
 
